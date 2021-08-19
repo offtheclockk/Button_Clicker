@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="title">
+            <h1>Dojonary</h1>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search.." name="search">
+        </div>
+        <div class="login-btn">
+            <button onclick="turnOff(this)" class="login">Login</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-1">
+            <div class="def-1">
+                <div class="text-box1">
+                    <div class="first-def">
+                        <h1>ninja</h1>
+                        <h2>noun</h2>
+                        <h3>Plural: <span class="ninjas">ninjas</span></h3>
+                    </div>
+                    <div class="first-like-btn">
+                        <button onclick="alert('This page says Ninja was liked')" class="likes">13 likes</button>
+                    </div>
+                </div>
+                <div class="text-box2">
+                    <div class="second-def">
+                        <h1>A practitioner skilled in the Japanese art of ninjitsu</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="def-2">
+                <div class="text-box3">
+                    <div class="first-def">
+                        <h1>ninja</h1>
+                        <h2>noun</h2>
+                        <h3>Plural: <span class="ninjas">ninjas</span></h3>
+                    </div>
+                    <div class="first-like-btn">
+                        <button onclick="alert('This page says Ninja was liked')" class="likes">37 likes</button>
+                    </div>
+                </div>
+                <div class="text-box4">
+                    <div class="second-def">
+                        <h1>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="text-box5">
+                <h1 class="dojonary">Dojonary is defined by <span class="you">YOU</span></h1>
+                <button onclick="hide(this)" class="add">Add Definition</button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

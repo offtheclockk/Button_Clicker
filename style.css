@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    width: 1000px;
+    height: 80px;
+}
+
+.title{
+    font-family: cursive;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.search{
+    margin-top: 34px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.def-1{
+    margin: 40px;
+    border: grey;
+    border-style: solid;
+    width: 700px;
+    height: 200px;
+    display: flex;
+}
+
+.def-2{
+    margin: 40px;
+    border: grey;
+    border-style: solid;
+    width: 700px;
+    height: 200px;
+    display: flex;
+}
+
+.first-def{
+    margin: 20px;
+    font-family: cursive;
+}
+
+h2{
+    margin-left: 10px;
+}
+
+.ninjas{
+    font-style: italic;
+}
+
+.likes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 100px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.second-def{
+    margin-top: 60px;
+    font-family: cursive;
+    font-size: small;
+    margin-left: 40px;
+}
+
+.col-2{
+    display: flex;
+    border: grey;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    margin-top: 40px;
+}
+
+.add{
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 130px;
+    background-color: green;
+    color: black;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.dojonary{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.you{
+    font-weight: 1000
+    ;
+}
